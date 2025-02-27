@@ -21,7 +21,7 @@ function mostrarLibrosLeidos() {
     listaLibros.innerHTML = ""; // Limpiar la lista
 
     if (librosLeidos.length === 0) {
-        listaLibros.innerHTML = "<li>No se han agregado libros todavía.</li>";
+        listaLibros.innerHTML = "<li>No se han agregado libros todavia.</li>";
     } else {
         librosLeidos.forEach((libro) => {
             const li = document.createElement("li");
